@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply min-h-screen text-gray-800;
+  background: linear-gradient(135deg, #717ca8 0%, #ffffff7f 50%, #cfd8fc 100%);
+}
+
+.container {
+  @apply mx-auto max-w-5xl px-6;
+}
+
+/* Card style */
+.card {
+
+  @apply bg-white/80 backdrop-blur-md rounded-2xl shadow-lg border border-white/40;
+}
+
+/* Input focus ring */
+input:focus, select:focus {
+  @apply outline-none ring-2 ring-indigo-400 border-transparent;
+}
+
+/* Smooth button transitions */
+button {
+  @apply transition-all duration-200;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600;
+}

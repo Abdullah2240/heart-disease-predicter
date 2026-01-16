@@ -1,0 +1,13 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.4
+imbalanced-learn>=0.12
+joblib>=1.3
+seaborn>=0.13
+scipy>=1.11
+
+# Optional (for API / deployment later)
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.6
