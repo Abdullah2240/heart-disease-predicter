@@ -1,8 +1,5 @@
 {
-  "$schema": "https://railway.com/railway.schema.json",
-  "steps": {
-    "new-step": {
-      "commands": ["cd backend"]
-    }
+  "build": {
+    "root": "backend"
   }
 }
