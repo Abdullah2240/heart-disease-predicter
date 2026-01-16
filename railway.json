@@ -4,4 +4,5 @@
     "new-step": {
       "commands": ["cd backend"]
     },
+  }
 }
