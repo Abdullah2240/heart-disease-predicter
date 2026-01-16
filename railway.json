@@ -3,6 +3,6 @@
   "steps": {
     "new-step": {
       "commands": ["cd backend"]
-    }, 
+    }
   }
 }
